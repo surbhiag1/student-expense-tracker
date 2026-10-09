@@ -1,24 +1,71 @@
-# Student Expense Tracker
+💸 Student Expense Tracker
 
-A small expense-tracking web app built with HTML, CSS, and vanilla JavaScript.
+A simple, beginner-friendly web application that helps students track their daily expenses, manage spending, and stay aware of where their money goes.
 
-## Features
-- Add expenses with a description, amount, and category
-- View total spending and transaction count
-- Save entries in browser `localStorage`
-- Responsive layout for mobile and desktop
+🔗 **Live Demo:** [View Student Expense Tracker](https://surbhiag1.github.io/student-expense-tracker/)
 
-## Run locally
-1. Download or clone this repository.
-2. Open `index.html` in your browser.
+✨ Features
 
-## What I learned
-- Handling form submissions and input validation
-- Rendering list items with JavaScript
-- Persisting data with `localStorage`
-- Formatting currency with `Intl.NumberFormat`
+* ➕ Add expenses with a description, amount, and category.
+* 📋 View your recorded expenses in one place.
+* 🗑️ Delete expenses when needed.
+* 💾 Save expense records using browser `localStorage`.
+* 📱 Simple and clean interface for everyday use.
 
-## Ideas to improve
-- Add category filters
-- Add monthly summaries or a chart
-- Add edit and delete buttons for individual expenses
+🛠️ Built With
+
+* **HTML5** — Page structure
+* **CSS3** — Styling and layout
+* **JavaScript** — Application logic and interactivity
+* **LocalStorage** — Saving expense data in the browser
+
+🚀 Getting Started
+ Run Locally
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/surbhiag1/student-expense-tracker.git
+   ```
+
+2. Open the project folder.
+
+3. Open `index.html` in your browser.
+
+No additional installation is required.
+
+ 📂 Project Structure
+
+```text
+student-expense-tracker/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+🎯 Learning Outcomes
+
+Through this project, I practised:
+
+* Structuring web pages with HTML.
+* Styling interfaces using CSS.
+* Handling user interactions with JavaScript.
+* Working with browser LocalStorage.
+* Publishing a static website using GitHub Pages.
+
+ 🔮 Future Improvements
+
+* Add monthly expense summaries.
+* Display spending charts and statistics.
+* Add expense filtering by category.
+* Improve mobile responsiveness.
+* Add budget limits and spending alerts.
+
+👩‍💻 Author
+**Surbhi Agarwal**
+Computer Science Engineering Student | Aspiring Software Developer
+* GitHub: [@surbhiag1](https://github.com/surbhiag1)
+* LinkedIn:https://www.linkedin.com/in/surbhi-agarwal-70286a371?utm_source=share_via&utm_content=profile&utm_medium=member_android
+
+⭐ If you find this project useful, consider giving the repository a star!
