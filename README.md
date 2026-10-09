@@ -2,6 +2,10 @@
 
 A simple, beginner-friendly web application that helps students track their daily expenses, manage spending, and stay aware of where their money goes.
 
+📸 Project Preview
+
+![Student Expense Tracker](assets/expense-tracker.png)
+
 🔗 **Live Demo:** [View Student Expense Tracker](https://surbhiag1.github.io/student-expense-tracker/)
 
 ✨ Features
