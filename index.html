@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Expense Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header>
+      <p class="eyebrow">PERSONAL FINANCE</p>
+      <h1>Student Expense Tracker</h1>
+      <p class="muted">Keep track of your daily spending, one entry at a time.</p>
+    </header>
+    <section class="summary">
+      <div><span>Total spent</span><strong id="total">₹0.00</strong></div>
+      <div><span>Transactions</span><strong id="count">0</strong></div>
+    </section>
+    <form id="expense-form" class="panel">
+      <h2>Add an expense</h2>
+      <label>Description<input id="description" required maxlength="60" placeholder="e.g. Lunch" /></label>
+      <div class="form-row">
+        <label>Amount (₹)<input id="amount" required type="number" min="1" step="0.01" placeholder="120" /></label>
+        <label>Category<select id="category"><option>Food</option><option>Travel</option><option>Study</option><option>Shopping</option><option>Other</option></select></label>
+      </div>
+      <button type="submit">Add expense</button>
+    </form>
+    <section class="panel">
+      <div class="list-heading"><h2>Recent expenses</h2><button id="clear" class="quiet" type="button">Clear all</button></div>
+      <ul id="expenses" class="expenses"><li class="empty">No expenses yet. Add your first one above.</li></ul>
+    </section>
+    <p class="footer">Your entries are saved in this browser using localStorage.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
